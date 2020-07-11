@@ -1,0 +1,38 @@
+common:
+    model:
+        arch: ms
+    workers: 3
+    batch_size: 16
+    lr: 0.0001
+    mGPU: True
+    devices: '2,3'
+    device_ids: [0,1]
+    kind: multi
+    interval: 5
+    channels: 9
+    start_epoch: 0
+    end_epoch: 3000
+    in_channels: 9
+    out_channels: 9
+    best_loss: 0.08
+
+    weight_init: mean
+
+
+
+
+
+    checkpoint: '/home/data1/xiesong/git_repo/removal_thin_cloud/experiments/ms/train_results/save_models/2999-209999.pkl'
+    checkpoint_dir: '/home/data1/xiesong/git_repo/removal_thin_cloud/experiments/ms/train_results/save_models/'
+    evaluation_dir: '/home/data1/xiesong/git_repo/removal_thin_cloud/experiments/ms/evaluation_results/'
+    gt_dir: '/home/data3/xiesong/dataset/cloud/landsat8/test_free/1/'
+
+    trainset: '/media/omnisky/data3/xiesong/datalist/cloud/landsat8_multi/train.txt'
+    testset: '/media/omnisky/data3/xiesong/datalist/cloud/landsat8_multi/test.txt'
+    results_model_dir: '/home/data1/xiesong/git_repo/removal_thin_cloud/experiments/ms/train_results/save_models/'
+    results_img_dir: '/home/data1/xiesong/git_repo/removal_thin_cloud/experiments/ms/train_results/save_result_img/'
+    log_dir: '/home/data1/xiesong/git_repo/removal_thin_cloud/experiments/ms/train_results/log/'
+
+
+
+

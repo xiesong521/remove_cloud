@@ -1,10 +1,10 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 #coding:utf-8
-"""
-    Author:XieSong
-    Email:18406508513@163.com
-    
-    Copyright:XieSong
-    Licence:MIT
 
+"""
+    Author: Xie Song
+    Email: 18406508513@163.com
+    
+    Copyright: Xie Song
+    License: MIT
 """
